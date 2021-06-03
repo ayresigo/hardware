@@ -5,17 +5,65 @@
         <title>Inicio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+        <style type="text/css">
+            body{
+                width: 95%;
+                max-width: 800px;
+                margin: auto;
+                background: whitesmoke center;
+
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.5;
+                color: rgb(40, 84, 116);
+            }
+            main{
+                background: #00000007;
+                margin-top: 20px;
+                padding: 10px 40px;
+                border-radius: 20px;
+            }
+
+            .button{
+                margin-top: 20px;
+                margin-block-end: 20px ;
+            }
+
+            .Grupo, .Nome{
+                text-shadow: 1px 1px 1px white ;
+
+            }
+
+        </style>
     </head>
+    
     <body>
-        
-            <h2>Grupo:</h2>
-            <p>João Paulo Felgas / Matrícula: 202002020156</p>
-            <p>Igor Frazão Ayres / Matrícula: 202001452117</p>
-            <p>Rayane Martins / Matrícula: 201803416203</p>
-            <p>Patrik Ferreira de Almeida / Matrícula: 202002214619</p>
+        <main>
             
-            <a href="/gerenciar_hardware"><button style="background: #069cc2; border-radius: 6px; padding: 15px; cursor: pointer; color: #fff; border: none; font-size: 16px;">Gerenciador</button></a>
+            <div class="Titulo">
+                <center>
+                    <img src="IMG/_Logotipo.png" alt="JAVA" >    
+            </div>
+
+            <div class="Grupo">
+                <h2>GRUPO</h2>
+            </div>    
             
-        
+            <div class="Nome">
+                <p>João Paulo Felgas  -  Matrícula: 202002020156</p>
+                <p>Igor Frazão Ayres  -  Matrícula: 202001452117</p>
+                <p>Rayane Martins  -  Matrícula: 201803416203</p>
+                <p>Patrik Ferreira de Almeida  -   Matrícula: 202002214619</p>
+            </div>
+            
+            <hr>
+            
+            <h3>Clique no botão abaixo para acessar o gerenciador</h3>
+
+            <div class="button">
+                <a href="/gerenciar_hardware"><button style="background: #b86a03bb; border-radius: 5px; padding: 15px; cursor: pointer; color: rgb(255, 255, 255); border: none; font-size: 16px; font-family: 'Montserrat', sans-serif;">GERENCIADOR</button></a>
+            </div>
+        </main> 
     </body>
 </html>
