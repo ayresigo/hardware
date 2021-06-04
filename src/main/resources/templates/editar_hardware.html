@@ -32,7 +32,7 @@
                 
                 <div class="row">
                     <div class="col-md-12 mb-3">
-                        <label for="nome">Date: </label>
+                        <label for="nome">Data: </label>
                         <input type="date" minlength="1" th:field="*{dataHardware}" id="fabricante" placeholder="Data do Hardware" class="form-control">
                     </div>    
                     <span th:if="${#fields.hasErrors('dataHardware')}" th:errors="*{dataHardware}" class="alert alert-warning"></span>                        
